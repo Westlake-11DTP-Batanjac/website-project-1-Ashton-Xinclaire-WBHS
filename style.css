@@ -1,0 +1,37 @@
+#title { 
+   color: green; 
+   text-align: center; 
+} 
+
+.house { 
+   border: 2px solid green; 
+   border-radius: 10px;
+   padding:15px ; 
+   margin:15px; 
+} 
+
+.pupuke { 
+   background-color: blue; 
+} 
+
+.smale { 
+   background-color: green; 
+} 
+
+.stanley { 
+   background-color: red; 
+} 
+ 
+.ururoto { 
+   background-color:black; 
+   color: white; 
+} 
+
+.murchison { 
+   background-color: white; 
+} 
+
+.hood { 
+   background-color:darkred; 
+   color: white; 
+} 
