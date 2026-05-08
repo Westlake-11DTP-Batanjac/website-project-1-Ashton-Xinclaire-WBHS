@@ -182,8 +182,6 @@ footer {
 
 .social-links { 
 
-    list-style: none;
-
     background-color: #d9d9d9;  
 
     color: white; 
@@ -193,5 +191,11 @@ footer {
     margin-top: 10px; 
 
     border: 1px solid #777; 
+
+} 
+
+.social-links ul { 
+
+    list-style: none;
 
 } 
