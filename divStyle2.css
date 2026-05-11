@@ -47,8 +47,6 @@ html, body{
     background-color: #49d260; 
 
     width:100%;
-
-    margin-bottom: 20px;
     
     margin-left:auto;
 
@@ -59,8 +57,12 @@ html, body{
 
     background-color: #c1d42f; 
 
-    margin-left: 25%;
+    width:100%;
+
+    margin-bottom: 20px;
     
+    margin-right:auto;
+
     order:2;
 
 } 
@@ -71,7 +73,7 @@ html, body{
 
     margin-left: 25%;
 
-    order:4;
+    order:3;
 
 } 
 
@@ -79,18 +81,23 @@ html, body{
 
     background-color: #e03f3f; 
 
-    margin-right: 25%;
+    margin-left: 25%;
 
-    order:3;
+    order:5;
 } 
 
 #box5{ 
 
     background-color: #d249cb; 
 
-    margin-right: 25%;
+    order:4;
 
-    order:5;
+    margin-left: 25%;
+
+    margin-right:25%;
+
+    align-self: center;
+
 
 } 
 
