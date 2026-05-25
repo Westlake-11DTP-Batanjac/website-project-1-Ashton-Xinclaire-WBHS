@@ -1,0 +1,76 @@
+body { 
+    background-color: rgb(31, 122, 3); 
+    font-family: Arial, sans-serif; 
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap
+}
+
+table, th, td { 
+    border: 3px solid black; 
+} 
+
+table { 
+    border-collapse: collapse; 
+} 
+
+th, td { 
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px; 
+} 
+
+th { 
+    background-color: rgb(15, 48, 11); 
+    color: white; 
+} 
+
+th, td { 
+    text-align: center; 
+} 
+
+tr:nth-child(even) { 
+    background-color: lightgray; 
+} 
+
+tr:nth-child(odd) { 
+    background-color: rgb(255, 255, 255); 
+} 
+
+td:hover { 
+    background-color:rgb(46, 51, 44);
+    color:white;
+    font-weight: bolder;
+    padding:30px;
+    padding-left:150px;
+    padding-right:150px
+}
+
+.easy:hover { 
+    background-color: rgb(0, 95, 21);
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+    padding:30px;
+    padding-left:150px;
+    padding-right:150px;
+} 
+
+.medium:hover { 
+    background-color: rgb(206, 181, 71);
+    color:white;
+    font-weight: bolder;
+    padding:30px;
+    padding-left:150px;
+    padding-right:150px
+} 
+
+.hard:hover { 
+    background-color: rgb(167, 31, 31);
+    color:white;
+    font-weight: bolder;
+    padding:30px;
+    padding-left:150px;
+    padding-right:150px
+} 
